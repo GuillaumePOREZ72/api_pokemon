@@ -1,0 +1,44 @@
+.card {
+    /* Variables */
+    --radius: 1em;
+    --imgsize: 300px;
+    --mx: 1em;
+    border-radius: var(--radius);
+    margin: var(--mx);
+
+    .card__picture{
+        height: var(--imgsize);
+        border-radius: 1em;
+    }    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    .price {
+        margin: 0.5em 0;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        box-shadow: 0px 0px 2px 1px #383838;
+        border: 1px solid #000000;
+        text-align: center;
+        cursor: pointer;
+        &.lowPrice {
+            // Gradient pour donner un effet métallique
+            color: #002f00;        
+        }
+        &.trendPrice {
+            color: #18002f;
+        }
+        
+    }
+}

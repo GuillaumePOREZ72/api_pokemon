@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+:root{
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 15px;
+    margin: 10px 20px;
+}
+
+.cards-list {
+    margin: 10px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}

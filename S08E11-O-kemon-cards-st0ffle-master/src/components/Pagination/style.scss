@@ -1,0 +1,35 @@
+.pagination__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+    cursor: pointer;
+
+    .pagination__link {
+        font-family: 'Press Start 2P', cursive;          
+        box-shadow: 0px 0px 2px 1px #383838;
+        padding: 0.5em;
+        margin: 1em 1em;
+        background-color: #383838;
+        color: #fff;
+    }
+
+    .pagination__link--current {
+        background-color: #c3c3c3;
+        color: #383838;
+    }
+}
+
+.pagination__select {
+    border-top: #383838 solid 1px;
+    padding-top: 1em;
+    font-family: 'Press Start 2P', cursive;  
+    text-align: center;
+
+    select {
+        font-family: 'Press Start 2P', cursive;        
+        box-shadow: 0px 0px 2px 1px #383838;
+        padding: 0.5em;
+        margin: 1em 1em;
+    }
+}
